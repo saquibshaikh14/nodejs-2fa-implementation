@@ -1,0 +1,24 @@
+# General exclusions
+node_modules/
+dist/
+build/
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# Exclude node_modules in all nested folders
+**/node_modules/
+
+# Specific to React (inside client folder)
+client/node_modules/
+
+# OS and Editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Exclude lock files (if preferred, only keep one lockfile)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
